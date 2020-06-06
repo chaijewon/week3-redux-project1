@@ -12,7 +12,7 @@ function App() {
           <Switch>
             <Route exact path={"/"} component={Category}/>
             <Route path={"/cate_food/:cno"} component={CateFood}/>
-            <Route path={"/food_detail"} component={FoodDetail}/>
+            <Route path={"/food_detail/:no"} component={FoodDetail}/>
           </Switch>
         </Router>
       </Provider>

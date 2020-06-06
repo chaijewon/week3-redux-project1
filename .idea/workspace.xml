@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d9cd04-fd5f-4010-93da-13e8a2ac7bee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/foodActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CateFood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CateFood.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/foodReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/foodReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodDetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591418817011</updated>
-      <workItem from="1591418818351" duration="3265000" />
+      <workItem from="1591418818351" duration="7310000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1591419496650</created>
@@ -88,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591419496650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit1">
+      <created>1591422270617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591422270617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,13 +109,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="77" key="CommitChangelistDialog2" timestamp="1591419495608">
+    <state x="254" y="77" key="CommitChangelistDialog2" timestamp="1591422269617">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="254" y="77" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1591419495608" />
+    <state x="254" y="77" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1591422269617" />
     <state x="486" y="387" key="Github.ShareDialog" timestamp="1591419478717">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -123,9 +137,9 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1259" height="196" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1591419598990" />
-    <state x="232" y="227" key="Vcs.Push.Dialog.v2" timestamp="1591419498414">
+    <state x="232" y="227" key="Vcs.Push.Dialog.v2" timestamp="1591422271879">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="227" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1591419498414" />
+    <state x="232" y="227" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1591422271879" />
   </component>
 </project>
