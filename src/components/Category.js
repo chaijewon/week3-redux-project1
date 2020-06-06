@@ -2,6 +2,7 @@ import React,{useEffect} from "react";
 import {FETCH_CATEGORY} from "../actions/types";
 import {useDispatch,useSelector} from "react-redux";
 import axios from 'axios'
+import {NavLink} from "react-router-dom";
 /*
       View => dispatch => export default function(state=initialState,action)
               dispatch({
@@ -38,7 +39,9 @@ export default function Category(props) {
     const html=category_data.map((m)=>
         <div className="col-md-4">
             <div className="thumbnail">
-                <img src={m.poster} alt="Lights" style={{"width": "100%"}}/>
+                <NavLink to={"/cate_food/"+m.cateno}>
+                  <img src={m.poster} alt="Lights" style={{"width": "100%"}}/>
+                </NavLink>
                 <div className="caption">
                     <p>{m.title}</p>
                 </div>

@@ -8,13 +8,13 @@ import store from './store/store'
 function App() {
   return (
       <Provider store={store}>
-    <Router>
-      <Switch>
-        <Route exact path={"/"} component={Category}/>
-        <Route path={"/cate_food"} component={CateFood}/>
-        <Route path={"/food_detail"} component={FoodDetail}/>
-      </Switch>
-    </Router>
+        <Router>
+          <Switch>
+            <Route exact path={"/"} component={Category}/>
+            <Route path={"/cate_food/:cno"} component={CateFood}/>
+            <Route path={"/food_detail"} component={FoodDetail}/>
+          </Switch>
+        </Router>
       </Provider>
 
   );
